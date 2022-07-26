@@ -1,0 +1,75 @@
+body{
+    background-color: #ccc;
+}
+
+/* Start card ------------------------------ */
+.card{
+    cursor: pointer;
+}
+
+.card .card-cap{
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    left: 10%;
+    bottom: 10px;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px;
+}
+
+.card .card-cap h2{
+    margin: 4px;
+    font-size: 33px;
+}
+
+.card .card-cap p{
+    color: #333;
+    font-size: 16px;
+}
+
+/* End card ------------------------------ */
+
+/* Start lightBox -------------------------- */
+#lightBox{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+#lightBox #lightBoxItem{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-image: url(../Img/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#lightBox #lightBoxItem .size{
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+#lightBox #lightBoxItem button{
+    border: none;
+    background-color: transparent;
+}
+
+#lightBox #lightBoxItem #exit{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/* End lightBox -------------------------- */
